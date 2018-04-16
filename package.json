@@ -1,0 +1,45 @@
+{
+  "name": "npm-version-cli",
+  "version": "0.0.0-semantic-release",
+  "description": "module npm-version-cli",
+  "bin": {
+    "npm-version-cli": "cli.js"
+  },
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "standard",
+    "test": "jest --coverage",
+    "posttest": "npm run lint",
+    "precommit": "npm test",
+    "commitmsg": "validate-commit-msg",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "keywords": [
+    "npm",
+    "version",
+    "cli",
+    "package.json"
+  ],
+  "author": "herrmannplatz <rene@herrmannplatz.de>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "execa": "^0.10.0",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "semantic-release": "^8.2.0",
+    "standard": "^10.0.3",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/herrmannplatz/npm-version-cli.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
