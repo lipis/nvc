@@ -12,7 +12,12 @@
     "precommit": "npm run lint && npm test",
     "commitmsg": "validate-commit-msg"
   },
-  "keywords": ["npm", "version", "cli", "package.json"],
+  "keywords": [
+    "npm",
+    "version",
+    "cli",
+    "package.json"
+  ],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "dependencies": {},
