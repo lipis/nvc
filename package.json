@@ -8,7 +8,7 @@
   "scripts": {
     "commit": "git-cz",
     "lint": "standard",
-    "test": "jest --coverage",
+    "test": "unpinned && jest --coverage",
     "posttest": "npm run lint",
     "precommit": "npm test",
     "commitmsg": "validate-commit-msg",
@@ -22,16 +22,16 @@
   ],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.1.0",
-    "execa": "^0.10.0",
-    "husky": "^0.14.3",
-    "jest": "^22.4.3",
-    "semantic-release": "^8.2.0",
-    "standard": "^10.0.3",
-    "validate-commit-msg": "^2.14.0"
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.1.0",
+    "execa": "0.10.0",
+    "husky": "0.14.3",
+    "jest": "22.4.3",
+    "semantic-release": "8.2.0",
+    "standard": "10.0.3",
+    "unpinned": "1.0.1",
+    "validate-commit-msg": "2.14.0"
   },
   "repository": {
     "type": "git",
