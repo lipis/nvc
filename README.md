@@ -11,6 +11,7 @@ $ npm install -g nvc
 ```
 
 ## Usage
+
 ```
   Usage
     $ nvc <folder|file|relative|absolut>
