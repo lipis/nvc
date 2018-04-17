@@ -1,9 +1,9 @@
 {
-  "name": "npm-version-cli",
+  "name": "nvc",
   "version": "0.0.0-semantic-release",
-  "description": "module npm-version-cli",
+  "description": "module nvc",
   "bin": {
-    "npm-version-cli": "cli.js"
+    "nvc": "cli.js"
   },
   "scripts": {
     "commit": "git-cz",
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/herrmannplatz/npm-version-cli.git"
+    "url": "git@github.com/herrmannplatz/nvc.git"
   },
   "config": {
     "commitizen": {

@@ -5,11 +5,11 @@ const meow = require('meow')
 
 const cli = meow(`
   Usage
-    $ npm-version-cli <folder|file>
+    $ nvc <folder|file>
   Examples
-    $ npm-version-cli
-    $ npm-version-cli module
-    $ npm-version-cli module/package.json
+    $ nvc
+    $ nvc module
+    $ nvc module/package.json
 `)
 
 const { input } = cli

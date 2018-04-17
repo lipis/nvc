@@ -1,21 +1,21 @@
-# npm-version-cli
+# nvc
 
-[![npm version](https://badge.fury.io/js/npm-version-cli.svg)](https://badge.fury.io/js/npm-version-cli) [![Build Status](https://travis-ci.org/herrmannplatz/npm-version-cli.svg?branch=master)](https://travis-ci.org/herrmannplatz/npm-version-cli)
+[![npm version](https://badge.fury.io/js/nvc.svg)](https://badge.fury.io/js/nvc) [![Build Status](https://travis-ci.org/herrmannplatz/nvc.svg?branch=master)](https://travis-ci.org/herrmannplatz/nvc)
 
-> print version of npm module from the command line
+> small tool that helps grabbing the version number from a package.json
 
 ## Install
 
 ```
-$ npm install -g npm-version-cli
+$ npm install -g nvc
 ```
 
 ## Usage
 ```
   Usage
-    $ npm-version-cli <folder|file|relative|absolut>
+    $ nvc <folder|file|relative|absolut>
   Examples
-    $ npm-version-cli
-    $ npm-version-cli ./module
-    $ npm-version-cli module/package.json
+    $ nvc
+    $ nvc ./module
+    $ nvc module/package.json
 ```
