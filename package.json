@@ -20,7 +20,6 @@
   ],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.1.0",
@@ -28,7 +27,6 @@
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "prettier-standard": "^8.0.1",
-    "semantic-release": "^15.1.7",
     "standard": "^11.0.1",
     "validate-commit-msg": "^2.14.0"
   },
