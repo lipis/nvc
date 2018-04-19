@@ -7,12 +7,11 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "lint": "standard",
-    "test": "unpinned && jest --coverage",
-    "posttest": "npm run lint",
-    "precommit": "npm test",
     "commitmsg": "validate-commit-msg",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "lint": "prettier-standard '**/*.{js,md}'",
+    "precommit": "npm run lint && npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "unpinned && jest --coverage"
   },
   "keywords": [
     "npm",
@@ -28,8 +27,8 @@
     "execa": "0.10.0",
     "husky": "0.14.3",
     "jest": "22.4.3",
+    "prettier-standard": "8.0.1",
     "semantic-release": "8.2.0",
-    "standard": "10.0.3",
     "unpinned": "1.0.1",
     "validate-commit-msg": "2.14.0"
   },

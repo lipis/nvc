@@ -14,9 +14,7 @@ const cli = meow(`
 
 const { input } = cli
 
-const folder = input.length === 0
-  ? process.cwd()
-  : input[0]
+const folder = input.length === 0 ? process.cwd() : input[0]
 
 const pathToPackageJSON = folder.endsWith('package.json')
   ? folder
