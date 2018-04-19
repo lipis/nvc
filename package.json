@@ -13,12 +13,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "unpinned && jest --coverage"
   },
-  "keywords": [
-    "npm",
-    "version",
-    "cli",
-    "package.json"
-  ],
+  "keywords": ["npm", "version", "cli", "package.json"],
   "author": "herrmannplatz <rene@herrmannplatz.de>",
   "license": "MIT",
   "devDependencies": {
